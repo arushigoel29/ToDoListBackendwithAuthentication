@@ -1,9 +1,7 @@
 const bodyParser = require("body-parser");
 const express=require("express");
 const mongoose =require("mongoose");
-// const loginRoute=require("./routes/loginRoute")
-const loginRoute=require("./routes/loginRoutes");
-
+const loginRoute=require("./routes/loginRoute")
 const taskRoutes=require("./routes/taskRoutes")
 const app=express();
 const PORT=3000;
